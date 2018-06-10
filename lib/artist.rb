@@ -9,7 +9,8 @@ class Artist
     @songs = []
   end
   
-  def add_song
+  def add_song(song)
+    
    describe "#add_song" do
       it "takes in an argument of a song and associates that song with the artist by telling the song that it belongs to that artist" do
         hello = Song.new("Hello")
