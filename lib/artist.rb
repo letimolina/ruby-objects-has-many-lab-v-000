@@ -26,3 +26,5 @@ class Artist
     @@all_songs.length
   end
 end
+
+
